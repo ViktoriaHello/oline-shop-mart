@@ -57,7 +57,7 @@ h2 {
   padding-bottom: 98px;
 }
 
-.get-in-touch .part1and2-get-in-touch .part1-get-in-touch .h-part1-get-in-touch, .get-in-touch .part1and2-get-in-touch .part1-get-in-touch .p-part1-get-in-touch, .get-in-touch .part1and2-get-in-touch .part2-get-in-touch textarea[type=info], .get-in-touch .part1and2-get-in-touch .part2-get-in-touch textarea[type=info-long] {
+.get-in-touch .part1and2-get-in-touch .part1-get-in-touch .p1-part1-get-in-touch, .get-in-touch .part1and2-get-in-touch .part1-get-in-touch .p-part1-get-in-touch, .get-in-touch .part1and2-get-in-touch .part2-get-in-touch input[type=text], .get-in-touch .part1and2-get-in-touch .part2-get-in-touch textarea[type=info-long] {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
@@ -820,13 +820,13 @@ header .header-link:first-child {
   margin-right: 38px;
 }
 
-.get-in-touch .part1and2-get-in-touch .part1-get-in-touch .h-part1-get-in-touch {
+.get-in-touch .part1and2-get-in-touch .part1-get-in-touch .p1-part1-get-in-touch {
   font-size: 72px;
   color: white;
   margin: 0;
 }
 
-.get-in-touch .part1and2-get-in-touch .part1-get-in-touch .h-part1-get-in-touch:first-letter {
+.get-in-touch .part1and2-get-in-touch .part1-get-in-touch .p1-part1-get-in-touch:first-letter {
   color: #1abc9c;
 }
 
@@ -878,7 +878,7 @@ header .header-link:first-child {
   grid-column: 1 / 3;
 }
 
-.get-in-touch .part1and2-get-in-touch .part2-get-in-touch textarea[type=info] {
+.get-in-touch .part1and2-get-in-touch .part2-get-in-touch input[type=text] {
   background: transparent;
   outline: none;
   width: 254px;
@@ -886,11 +886,10 @@ header .header-link:first-child {
   border: 1px solid white;
   color: white;
   padding-left: 19px;
-  padding-top: 14px;
   font-size: 18px;
 }
 
-.get-in-touch .part1and2-get-in-touch .part2-get-in-touch textarea[type=info]:focus {
+.get-in-touch .part1and2-get-in-touch .part2-get-in-touch input[type=text]:focus {
   border: 1px solid #1abc9c;
 }
 
@@ -898,19 +897,19 @@ header .header-link:first-child {
   border: 1px solid #1abc9c;
 }
 
-.get-in-touch .part1and2-get-in-touch .part2-get-in-touch textarea[type=info]::-webkit-input-placeholder {
+.get-in-touch .part1and2-get-in-touch .part2-get-in-touch input[type=text]::-webkit-input-placeholder {
   color: white;
 }
 
-.get-in-touch .part1and2-get-in-touch .part2-get-in-touch textarea[type=info]:-ms-input-placeholder {
+.get-in-touch .part1and2-get-in-touch .part2-get-in-touch input[type=text]:-ms-input-placeholder {
   color: white;
 }
 
-.get-in-touch .part1and2-get-in-touch .part2-get-in-touch textarea[type=info]::-ms-input-placeholder {
+.get-in-touch .part1and2-get-in-touch .part2-get-in-touch input[type=text]::-ms-input-placeholder {
   color: white;
 }
 
-.get-in-touch .part1and2-get-in-touch .part2-get-in-touch textarea[type=info]::placeholder {
+.get-in-touch .part1and2-get-in-touch .part2-get-in-touch input[type=text]::placeholder {
   color: white;
 }
 

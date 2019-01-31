@@ -681,7 +681,7 @@ header {
     width: 532px;
     margin-right: 38px;
    
-    .h-part1-get-in-touch {
+    .p1-part1-get-in-touch {
         font-size: 72px;
         color: white;
         @extend %font-Roboto;
@@ -738,7 +738,7 @@ header {
             grid-column: 1 / 3;  
        }
 
-       textarea[type=info] {
+       input[type=text] {
           background: transparent;
           outline: none;
           width: 254px ;
@@ -746,19 +746,18 @@ header {
           border: 1px solid white;
           color: white;
           padding-left: 19px;
-          padding-top: 14px;
           font-size: 18px;
           @extend %font-Roboto;
         }
          
-        textarea[type=info]:focus {
+        input[type=text]:focus {
             border: 1px solid $main-color;
           }
         textarea[type=info-long]:focus {
             border: 1px solid $main-color;
           }
 
-        textarea[type=info]::placeholder { color: white; }  
+        input[type=text]::placeholder { color: white; }  
         textarea[type=info-long]::placeholder { color: white;}  
        
         textarea[type=info-long] {
